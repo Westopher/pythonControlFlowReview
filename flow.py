@@ -17,6 +17,25 @@ if numGuests:
     print(f"you have {numGuests} comming")
 print("done") """
 
-print('My name is')
+""" print('My name is')
 for i in range(5):
     print('Jimmy Five Times (' + str(i+1) + ')')
+
+while  """
+
+""" for i in range(50,100):
+    print(i) """
+
+""" import random
+
+for i in range(10):
+    print(random.randint(1,50)) """
+
+import sys
+
+while True:
+    print('Type exit to exit')
+    response = input()
+    if response == 'exit':
+        sys.exit()
+    print('You typed ' + response + ', type exit instead.')
